@@ -160,3 +160,54 @@ body {
 @media (max-width: 767.98px) {
     /* ... */
 }
+
+
+
+
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    margin-left: 5rem;
+
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+li:hover {
+    border-top: #0065FC solid;
+}
+
+a:hover {
+    color: #0065FC;
+}
+
+
+
+/* footer */
+footer {
+    background-color: var(--main-bg-color);
+}
+
+.footerh {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin-left: 30px;
+}
+
+/* test */

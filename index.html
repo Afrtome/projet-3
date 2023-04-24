@@ -14,13 +14,59 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
+
+
+
 <body>
+
+
     <div class="main-container">
-        <header></header>
+        <header>
+            <div class="logo">
+                <img src="./images/logo/Booki.png" alt="Logo Booki" width="70" height="35">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#Hébergement">Hébergements</a></li>
+                    <li><a href="#Activités">Activités</a></li>
+                </ul>
+            </nav>
+        </header>
+
         <main>
+            <section>
+                <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
+                <p>En plein centre-ville ou en pleine nature</p>
+            </section>
+
+            <section>
+
+                <form method="get" action="">
+
+                    <label for="icon">icon</label>
+                    <input type="text" name="ville" id="ville" placeholder="Marseille, France">
+                    <input type="submit" value="Rechercher">
+                    </p>
+                </form>
+
+            </section>
+
+            <section>
+                <h3> Filtres</h3>
+
+            </section>
+            <section>
+
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </section>
+
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
+                    <h2 id="Hébergement">Hébergements à Marseille</h2>
 
+
+
+                    <h3>Afficher plus</h3>
                 </section>
                 <section class="populaires">
                     <div class="populaires-title">
@@ -29,7 +75,8 @@
                     </div>
                     <div class="populaires-cards">
                         <article class="card">
-                            <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            <img src="./images/hebergements/emile-guillemot.jpg"
+                                alt="Image de la chambre d'hôtel montrant un lit">
                             <div class="card-content">
                                 <div class="card-txt">
                                     <h3 class="card-title">Hôtel Le soleil du matin</h3>
@@ -46,7 +93,8 @@
                             </div>
                         </article>
                         <article class="card">
-                            <img src="./images/hebergements/aw-creative.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            <img src="./images/hebergements/aw-creative.jpg"
+                                alt="Image de la chambre d'hôtel montrant un lit">
                             <div class="card-content">
                                 <div class="card-txt">
                                     <h3 class="card-title">Chambres d’hôtes Au cœur de l’eau</h3>
@@ -63,7 +111,8 @@
                             </div>
                         </article>
                         <article class="card">
-                            <img src="./images/hebergements/febrian-zakaria2.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            <img src="./images/hebergements/febrian-zakaria2.jpg"
+                                alt="Image de la chambre d'hôtel montrant un lit">
                             <div class="card-content">
                                 <div class="card-txt">
                                     <h3 class="card-title">Hôtel Bleu et Blanc</h3>
@@ -82,8 +131,42 @@
                     </div>
                 </section>
             </div>
+            <section>
+                <h2 id="Activités">Activités à Marseille</h2>
+            </section>
         </main>
-        <footer></footer>
+        <footer>
+            <section>
+                <div class="footerh">
+                    <article class="footerespace">
+                        <h3>A propos</h3>
+                        <p>
+                            <a href="#Fonctionnement du site">Fonctionnement du site</a><br>
+                            <br>
+                            <a href="#Conditions générales">Conditions générales</a><br>
+                            <br>
+                            <a href="#Données et confidentialité">Données et confidentialité</a><br>
+                        </p>
+                    </article>
+                    <article class="footerespace">
+                        <h3>Nos hébergements</h3>
+                        <p>
+                            <a href="#Charte qualité">Charte qualité</a><br>
+                            <br>
+                            <a href="#Proposer votre hôtel">Proposer votre hôtel</a><br>
+                        </p>
+                    </article>
+                    <article class="footerespace">
+                        <h3>Assistance</h3>
+                        <p>
+                            <a href="#Centre d'aide">Centre d'aide</a><br>
+                            <br>
+                            <a href="#Nous contacter">Nous contacter</a><br>
+                        </p>
+                    </article>
+                </div>
+            </section>
+        </footer>
     </div>
 </body>
 
