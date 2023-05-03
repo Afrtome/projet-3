@@ -164,8 +164,6 @@ body {
 
 
 
-
-
 /* header */
 header {
     display: flex;
@@ -200,10 +198,6 @@ a:hover {
 
 
 
-
-
-
-
 /* footer */
 footer {
     background-color: var(--main-bg-color);
@@ -216,7 +210,9 @@ footer {
     margin-left: 30px;
 }
 
-/* test */
+
+
+/* barre de recherche */
 
 .boutonRechercher {
     background-color: #0065FC;
@@ -224,13 +220,25 @@ footer {
     padding: 15px 17px;
     border-radius: 0 15px 15px 0;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
     height: 50px;
+    border: none;
+    position: relative;
+
 }
 
 form {
     display: flex;
+    height: 50px;
 }
+
+::placeholder {
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+
 
 .searchIcon {
     background-color: #F2F2F2;
@@ -240,5 +248,29 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 15px 0 0 15px;
+
+}
+
+.iiconsearch {
+    color: black;
+}
+
+/* filtre */
+
+.boutonfiltre {
+    background-color: white;
+    font-weight: 600;
+    height: 50px;
+    border-radius: 50px;
+    justify-content: center;
+    border: solid;
+    border-width: thin;
+    border-color: #F2F2F2;
+    color: black;
+}
+
+.boutonfiltre:hover {
+    background-color: #d4e3fe;
 
 }
