@@ -295,15 +295,14 @@ form {
 /* hébergement Marseille */
 
 .hebergements-card img {
-    max-width: 250px;
     width: 100%;
     border-radius: 20px 20px 0 0;
-    height: 50%;
+    height: 120px;
 }
 
 .hebergements-card {
     width: 230px;
-    height: 210px;
+    height: 200px;
 }
 
 .leshebergements {
@@ -403,4 +402,13 @@ form {
 .marginactivite {
     margin-top: 72px;
     margin-bottom: 72px;
+}
+
+.titlehebergement {
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.card-subtitle {
+    margin: 0;
 }
