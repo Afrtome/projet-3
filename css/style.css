@@ -395,13 +395,12 @@ form {
     margin-bottom: 36px;
 }
 
-.margintop {
-    margin-top: 36px;
-}
 
 .marginactivite {
     margin-top: 72px;
     margin-bottom: 72px;
+    margin-left: 28px;
+    margin-right: 28px;
 }
 
 .titlehebergement {
@@ -411,4 +410,13 @@ form {
 
 .card-subtitle {
     margin: 0;
+}
+
+.filtrealign {
+    align-items: center;
+}
+
+.position {
+    position: relative;
+    top: 15px;
 }
