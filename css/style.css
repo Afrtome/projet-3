@@ -171,13 +171,13 @@ header {
     align-items: center;
 }
 
-ul {
+ul[title="nav"] {
     list-style: none;
     display: flex;
     justify-content: flex-end;
 }
 
-li {
+li[title="nav"] {
     margin-left: 5rem;
 
 }
@@ -187,24 +187,32 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a[title="menu"]:hover {
     color: #0065FC;
     border-top: 2px #0065FC solid;
-    padding-top: 15px;
+    padding-top: 30px;
+}
+
+a[title="lien"]:hover {
+    color: #0065FC;
+}
+
+h3[title="lien"]:hover {
+    color: #0065FC;
 }
 
 
+/* logo*/
 
-/* footer */
-footer {
-    background-color: var(--main-bg-color);
+
+.logo img {
+    width: 60px;
+    height: 20px;
 }
 
-.footerh {
-    display: flex;
-    justify-content: space-between;
-    width: 75%;
-    margin-left: 30px;
+#hebergement {
+    margin: 0;
+    margin-bottom: 30px;
 }
 
 
@@ -292,6 +300,47 @@ form {
 }
 
 
+.filtrealign {
+    align-items: center;
+}
+
+
+/* icone */
+
+.information {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 36px;
+}
+
+.cercleicon {
+    border: 1px solid #D9D9D9;
+    height: 24px;
+    width: 24px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+/* mise en page avant cards */
+
+.margintop {
+    margin-top: 36px;
+}
+
+.margin {
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+
+
+
 /* hébergement Marseille */
 
 .hebergements-card img {
@@ -313,6 +362,10 @@ form {
     margin-top: 30px;
 }
 
+
+.neutral-star {
+    color: var(--main-bg-color);
+}
 
 
 /* Activité Marseille */
@@ -340,59 +393,10 @@ form {
 
 
 
-
-/* éléments de descrition card */
+/* éléments de descrition card et mise en page */
 
 .margindescription {
     margin-left: 15px;
-}
-
-/* logo*/
-
-
-.logo img {
-    width: 60px;
-    height: 20px;
-}
-
-#hebergement {
-    margin: 0;
-    margin-bottom: 30px;
-}
-
-
-
-
-.neutral-star {
-    color: var(--main-bg-color);
-}
-
-.information {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 36px;
-}
-
-.cercleicon {
-    border: 1px solid #D9D9D9;
-    height: 24px;
-    width: 24px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-
-.margintop {
-    margin-top: 36px;
-}
-
-.margin {
-    margin-top: 36px;
-    margin-bottom: 36px;
 }
 
 
@@ -412,11 +416,30 @@ form {
     margin: 0;
 }
 
-.filtrealign {
-    align-items: center;
-}
-
 .position {
     position: relative;
     top: 15px;
+}
+
+
+
+
+/* footer */
+footer {
+    background-color: var(--main-bg-color);
+}
+
+.footerh {
+    display: flex;
+    justify-content: space-between;
+    width: 78%;
+    margin-left: -20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-top: 15px;
 }
