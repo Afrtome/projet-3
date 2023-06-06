@@ -366,13 +366,17 @@ form {
     color: var(--main-bg-color);
 }
 
+.margin1025 {
+    margin-right: 30px;
+    margin-left: 30px;
+}
 
 /* Activité Marseille */
 
 .activite-card {
     max-width: 297px;
     width: 100%;
-    height: 439px;
+    height: auto;
 }
 
 
@@ -389,6 +393,18 @@ form {
 }
 
 
+.marginleft {
+    margin-left: 15px;
+}
+
+.marginright {
+    margin-right: 15px;
+}
+
+.margindouble {
+    margin-left: 15px;
+    margin-right: 15px;
+}
 
 
 
@@ -441,14 +457,4 @@ ul {
 
 li {
     margin-top: 15px;
-}
-
-
-
-
-
-
-.margin1025 {
-    margin-right: 30px;
-    margin-left: 30px;
 }
