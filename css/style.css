@@ -351,13 +351,12 @@ form {
 
 .hebergements-card {
     width: 230px;
-    height: 200px;
+    height: auto;
 }
 
 .leshebergements {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 30px;
 }
@@ -442,4 +441,14 @@ ul {
 
 li {
     margin-top: 15px;
+}
+
+
+
+
+
+
+.margin1025 {
+    margin-right: 30px;
+    margin-left: 30px;
 }
