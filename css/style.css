@@ -454,9 +454,32 @@ footer {
 
 .footerh {
     display: flex;
+    justify-content: space-around;
+}
+
+.footerarticle {
+    position: relative;
+
+}
+
+.space {
+    display: flex;
     justify-content: space-between;
-    width: 78%;
-    margin-left: -20px;
+    width: 75%;
+    position: relative;
+    left: 20px;
+}
+
+.article1 {
+    right: 120px;
+}
+
+.article2 {
+    right: 150px;
+}
+
+.article3 {
+    right: 160px;
 }
 
 ul {
