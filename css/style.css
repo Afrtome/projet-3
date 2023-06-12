@@ -239,10 +239,6 @@ h3[title="lien"]:hover {
     text-align: center;
 }
 
-form {
-    display: flex;
-    height: 50px;
-}
 
 ::placeholder {
     font-weight: bold;
@@ -458,15 +454,6 @@ footer {
     background-color: var(--main-bg-color);
 }
 
-.footerh {
-    display: flex;
-    justify-content: space-around;
-}
-
-.footerarticle {
-    position: relative;
-
-}
 
 .space {
     display: flex;
@@ -474,28 +461,4 @@ footer {
     width: 75%;
     position: relative;
     left: 20px;
-}
-
-.article1 {
-    right: 120px;
-}
-
-.article2 {
-    right: 150px;
-}
-
-.article3 {
-    right: 160px;
-}
-
-ul {
-    list-style-type: none;
-}
-
-li {
-    margin-top: 15px;
-}
-
-.footerh4 {
-    margin-left: 40px;
 }
